@@ -1,0 +1,49 @@
+.card{
+    background: #2F3046;
+    color: #fff;
+    border: solid;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 20rem;
+    width: 20rem;
+    
+}
+
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    padding:2rem
+}
+.user-data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.avatar{
+    margin-top: 10px;
+    border-radius:50%;
+    /* height: 50px;
+    width: 50px; */
+
+}
+.phone-number-section{
+    margin-top: 50px;
+}
+
+.non-active-div{
+    background: white;
+    color: black;
+    padding-inline: 2rem;
+    border-radius: 20rem;
+    margin-top: 20px;
+    padding-block: 10px;
+    
+}
+.phone-details{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
